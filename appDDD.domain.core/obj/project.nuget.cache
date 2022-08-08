@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mnk+nHl0ATksyYub2f+GhX86x7d+2RLPzTK3irOQWmfkrLb8Nbe4vjcY9ub9bsolsDP4m3xEtnFoY0WY7UABJQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\appDDD.domain.core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rodri\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\rodri\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\rodri\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rodri\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\rodri\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\rodri\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\rodri\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\rodri\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

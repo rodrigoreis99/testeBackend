@@ -1,0 +1,439 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rodri\\source\\repos\\produtosAPI\\ApiDDD\\ApiDDD.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rodri\\source\\repos\\produtosAPI\\apiDDD.application\\apiDDD.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\apiDDD.application\\apiDDD.application.csproj",
+        "projectName": "apiDDD.application",
+        "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\apiDDD.application\\apiDDD.application.csproj",
+        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\apiDDD.application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\appDDD.domain.core.csproj": {
+                "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\appDDD.domain.core.csproj"
+              },
+              "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.services\\appDDD.domain.services.csproj": {
+                "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.services\\appDDD.domain.services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rodri\\source\\repos\\produtosAPI\\ApiDDD\\ApiDDD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\ApiDDD\\ApiDDD.csproj",
+        "projectName": "ApiDDD",
+        "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\ApiDDD\\ApiDDD.csproj",
+        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\ApiDDD\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.infraestructure\\appDDD.infraestructure.csproj": {
+                "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.infraestructure\\appDDD.infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.class\\appDDD.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.class\\appDDD.domain.csproj",
+        "projectName": "appDDD.domain",
+        "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.class\\appDDD.domain.csproj",
+        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.class\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\appDDD.domain.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\appDDD.domain.core.csproj",
+        "projectName": "appDDD.domain.core",
+        "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\appDDD.domain.core.csproj",
+        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.class\\appDDD.domain.csproj": {
+                "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.class\\appDDD.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.services\\appDDD.domain.services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.services\\appDDD.domain.services.csproj",
+        "projectName": "appDDD.domain.services",
+        "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.services\\appDDD.domain.services.csproj",
+        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\appDDD.domain.core.csproj": {
+                "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\appDDD.domain.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.infraestructure\\appDDD.infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.infraestructure\\appDDD.infraestructure.csproj",
+        "projectName": "appDDD.infraestructure",
+        "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.infraestructure\\appDDD.infraestructure.csproj",
+        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rodri\\source\\repos\\produtosAPI\\apiDDD.application\\apiDDD.application.csproj": {
+                "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\apiDDD.application\\apiDDD.application.csproj"
+              },
+              "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.class\\appDDD.domain.csproj": {
+                "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.class\\appDDD.domain.csproj"
+              },
+              "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\appDDD.domain.core.csproj": {
+                "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.core\\appDDD.domain.core.csproj"
+              },
+              "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.services\\appDDD.domain.services.csproj": {
+                "projectPath": "C:\\Users\\rodri\\source\\repos\\produtosAPI\\appDDD.domain.services\\appDDD.domain.services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

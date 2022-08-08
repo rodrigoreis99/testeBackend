@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\apiDDD.application\apiDDD.application.csproj" />
+    <ProjectReference Include="..\appDDD.class\appDDD.domain.csproj" />
+    <ProjectReference Include="..\appDDD.domain.core\appDDD.domain.core.csproj" />
+    <ProjectReference Include="..\appDDD.domain.services\appDDD.domain.services.csproj" />
+  </ItemGroup>
+
+</Project>

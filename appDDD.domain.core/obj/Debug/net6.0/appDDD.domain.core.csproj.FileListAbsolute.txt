@@ -1,0 +1,15 @@
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\bin\Debug\net6.0\appDDD.domain.core.deps.json
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\bin\Debug\net6.0\appDDD.domain.core.dll
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\bin\Debug\net6.0\appDDD.domain.core.pdb
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\bin\Debug\net6.0\appDDD.domain.dll
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\bin\Debug\net6.0\appDDD.domain.pdb
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\obj\Debug\net6.0\appDDD.domain.core.csproj.AssemblyReference.cache
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\obj\Debug\net6.0\appDDD.domain.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\obj\Debug\net6.0\appDDD.domain.core.AssemblyInfoInputs.cache
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\obj\Debug\net6.0\appDDD.domain.core.AssemblyInfo.cs
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\obj\Debug\net6.0\appDDD.domain.core.csproj.CoreCompileInputs.cache
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\obj\Debug\net6.0\appDDD.domain.core.csproj.CopyComplete
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\obj\Debug\net6.0\appDDD.domain.core.dll
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\obj\Debug\net6.0\refint\appDDD.domain.core.dll
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\obj\Debug\net6.0\appDDD.domain.core.pdb
+C:\Users\rodri\source\repos\produtosAPI\appDDD.domain.core\obj\Debug\net6.0\ref\appDDD.domain.core.dll
